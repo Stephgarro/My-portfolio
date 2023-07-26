@@ -1,0 +1,107 @@
+@import './colors';
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5rem;
+  padding: 1rem 2rem;
+  border-bottom: 5px solid $main-color; /* PROV */
+  background: $second-color; /* PROV */
+  top: 0;
+  z-index: 1;
+  position: fixed;
+  width: 100%;
+
+  /* ////////////////////////////////////////////// */
+  &__logo {
+    color:$main-color ;
+    font-size: 2.5rem;
+    font-weight: 500;
+    font-family: 'Satisfy';
+  }
+
+  .nav {
+    &__icono {
+      font-size: 3rem;
+      color: $main-color;
+    
+    }
+
+    &__caja {
+      background: $second-color;
+      width: 100%;
+      height: max-content;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: end;
+      gap: 2rem;
+      gap: 1.5rem;
+      position: absolute;
+      top: 5rem;
+      left: 0;
+      text-transform: capitalize;
+      transition: 1s;
+      overflow: hidden;
+      height: 0;
+      border-bottom: 0.1rem solid rgba(255, 255, 255, 0.1);
+
+      &--visible {
+        height: max-content;
+        padding: 6rem 0;
+      }
+
+      a {
+        color:$main-color;
+        border-bottom: 0.15rem solid rgba(255, 0, 0, 0);
+        transition: 0.5s;
+        cursor: pointer;
+        padding: 0 0.5rem;
+
+        &:hover {
+          color: $main-color;
+          border-bottom: 0.15rem solid $main-color;
+         
+        }
+
+        &.selected {
+          
+          color: $main-color;
+          border-bottom: 0.15rem solid $main-color;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 650px) {
+  .header {
+    padding: 4rem;
+
+    .nav {
+      &__icono {
+        display: none;
+      }
+      &__caja {
+        background: transparent;
+        flex-direction: row;
+        position: initial;
+        height: max-content;
+        border-bottom: none;
+      }
+    }
+  }
+}
+
+@media (min-width: 650px) {
+  .header li {
+    font-size: 1.7rem;
+  }
+}
+
+@media (min-width: 980px) {
+  .header li {
+    font-size: 1.75rem;
+  }
+}
