@@ -26,15 +26,6 @@ const TRABAJOS = [
     imagen: './images/Global-project.png'
   },
   {
-    nombre: 'pocke app',
-    fecha: '07 - april - 2023',
-    descripcion:
-      "Application web called pockeapp using html, css and javascript",
-    website: 'https://pockeapp.vercel.app/?vercelToolbarCode=XP9z-sjM_k2kjvG',
-    github: 'https://github.com/Stephgarro/javascript-2-grupo-1--stephannieGarro-/tree/main/pokeApp',
-    imagen: './images/pokeapp-project.png'
-  },
-  {
     nombre: 'Portfolio',
     fecha: '10 - agust - 2022',
     descripcion:
@@ -44,22 +35,31 @@ const TRABAJOS = [
     imagen: './images/portfolio.png'
   },
   {
-    nombre: 'skin care ',
-    fecha: '17 - november - 2022',
+    nombre: 'To-Do List',
+    fecha: '05 - November - 2023',
     descripcion:
-      'Landing page about skin care , only with html, css and sass.',
-    website: 'https://github.com/DefArs/laboratorio2',
-    github: 'https://github.com/DefArs/laboratorio2',
-    imagen: './images/skincare-project.png'
+      "An application called To-Do List where you can track the progress of your tasks, created in React.",
+    website: 'https://vercel.com/stephgarro/to-do-list',
+    github: 'https://github.com/Stephgarro/To-Do-list',
+    imagen: './images/to-do1.PNG'
   },
   {
-    nombre: 'Hotels',
-    fecha: '06 - march- 2023',
+    nombre: 'Calculator  ',
+    fecha: '03 - november - 2023',
     descripcion:
-      'Landong page about hotels with html,css,and javascript.',
-    website: 'https://juc24.github.io/proyecto1_proyecto-final/',
-    github: 'https://github.com/JUC24/proyecto1_proyecto-final',
-    imagen: './images/home-page.png'
+      'This application is a calculator that allows performing basic mathematical operations, created with React',
+    website: 'https://calculator-taupe-pi.vercel.app/',
+    github: 'https://github.com/Stephgarro/calculator',
+    imagen: './images/calculator.PNG'
+  },
+  {
+    nombre: 'Tic-Tac-Toe',
+    fecha: '02 - november- 2023',
+    descripcion:
+      'This application is called Tic-Tac-Toe, it is a board game where the person who manages to align their pieces wins, It is created with React.',
+    website: 'https://tic-tac-toe-one-eosin.vercel.app/',
+    github: 'https://github.com/Stephgarro/Tic-Tac-Toe',
+    imagen: './images/tic-tac.PNG'
   },
 
 ]
