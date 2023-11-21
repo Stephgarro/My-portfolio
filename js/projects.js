@@ -30,8 +30,8 @@ const TRABAJOS = [
     fecha: '10 - agust - 2022',
     descripcion:
       'first version of portfolio olny with html and css.',
-    website: 'proyecto-final-web-sandy.vercel.app',
-    github: 'https://proyecto-final-web-sandy.vercel.app/',
+    website: 'https://proyecto-final-web-sandy.vercel.app/',
+    github: 'https://github.com/Stephgarro/Proyecto-final-web',
     imagen: './images/portfolio.png'
   },
   {
@@ -39,7 +39,7 @@ const TRABAJOS = [
     fecha: '05 - November - 2023',
     descripcion:
       "An application called To-Do List where you can track the progress of your tasks, created in React.",
-    website: 'https://vercel.com/stephgarro/to-do-list',
+    website: 'https://to-do-list-ashy-theta.vercel.app/',
     github: 'https://github.com/Stephgarro/To-Do-list',
     imagen: './images/to-do1.PNG'
   },
