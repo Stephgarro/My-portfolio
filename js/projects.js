@@ -59,7 +59,7 @@ const TRABAJOS = [
       'This application is called Tic-Tac-Toe, it is a board game where the person who manages to align their pieces wins, It is created with React.',
     website: 'https://tic-tac-toe-one-eosin.vercel.app/',
     github: 'https://github.com/Stephgarro/Tic-Tac-Toe',
-    imagen: './images/tic-tac.PNG'
+    imagen: './images/tic-tac-toe.PNG'
   },
 
 ]
