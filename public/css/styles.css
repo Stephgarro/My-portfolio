@@ -625,22 +625,21 @@
       color: #C18585;
       text-align: center; }
   .seccion3__contenedor {
-    width: 100%;
+    width: 80%;
     display: flex;
     gap: 4rem;
-    flex-wrap: wrap;
     justify-content: center;
-    flex-direction: row; }
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto; }
     .seccion3__contenedor .proyecto {
       width: 100%;
-      height: 30rem;
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
       border-radius: 1rem;
       max-width: 50rem;
-      overflow: hidden;
-      min-height: 39rem; }
+      overflow: hidden; }
       .seccion3__contenedor .proyecto .contenido {
         background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6));
         background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.6));
@@ -766,7 +765,7 @@
 
 @media (min-width: 720px) {
   .seccion3 .seccion3__contenedor .proyecto {
-    min-height: 34rem;
+
     height: 34rem; } }
 
 @media (min-width: 900px) {
