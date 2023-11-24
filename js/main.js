@@ -44,6 +44,7 @@ itemNavTotal.forEach((item) => {
 
 
 
+
 function animar() {
   titulo.classList.add('titulo--animada')
 

@@ -37,13 +37,14 @@
   }
 
   &__contenedor {
-    width: 100%;
+    width: 80%;
     display: flex;
     gap: 4rem;
-    flex-wrap: wrap;
     justify-content: center;
-    flex-direction: row;
-    // background: green;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+
 
     .proyecto {
       width: 100%;
